@@ -1096,6 +1096,18 @@ $hardware_info = array(
                      'battery' => '2900 mAh',
                      'display' => '5.0 inch, 1920x1080 pixel(441ppi)',
                      'cpuarch' => 'ARM'),
+    'zerofltexx' => array('cpu' => 'Samsung Exynos 7420',
+                     'ram' => '3GB',
+                     'rom' => '32GB',
+                     'battery' => '2550 mAh',
+                     'display' => '5.1 inch, 2560x1440 pixel(576ppi)',
+                     'cpuarch' => 'ARM'),
+    'zeroltexx' => array('cpu' => 'Samsung Exynos 7420',
+                     'ram' => '3GB',
+                     'rom' => '32GB/64GB',
+                     'battery' => '2600 mAh',
+                     'display' => '5.1 inch, 2560x1440 pixel(576ppi)',
+                     'cpuarch' => 'ARM'),
 );
 
 foreach ($devices_info as $k => $val) {
